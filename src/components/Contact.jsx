@@ -5,7 +5,7 @@ import Footer from './Footer'
 const Contact = () => {
   return (
     <>
-    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-[30px] text-[35px] '>Contact Us</h1>
+    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-3 text-2xl md:py-6 md:text-4xl'>Contact Us</h1>
     <Layout>
  <div className=' flex justify-center my-20'>
  <form type='submit' className="w-full max-w-lg">
@@ -63,7 +63,7 @@ const Contact = () => {
     </div>
   </div>
  
-  <button type='submit'   className='  duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#183661] p-[14px] w-44 rounded-full mt-10 text-white'>Send</button>
+  <button  type='button'   className='  duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#183661] p-[14px] w-44 rounded-full mt-10 text-white'>Send</button>
 
 </form>
  </div>

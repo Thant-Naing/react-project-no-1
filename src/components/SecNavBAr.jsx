@@ -6,35 +6,36 @@ const SecNavBAr = () => {
      const cr = useLocation().pathname;
      
   return (
-    <div className=" w-full  bg-[#183661]">
+    <div className=" hidden sm:block max-w-full container    mx-auto  bg-[#183661]">
       <Layout>
-        <div className=" flex justify-between font-mono text-white text-2xl">
-          <div className=" flex">
-            <NavLink to={"/"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/" && "bg-[#f2c119]" }  `}>
+        <div className="  grid sm:grid-cols-1 md:grid-cols-2 ">
+
+          <div className="   max-w-full mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 text-center font-semibold text-lg md:text-md  text-white">
+            <NavLink to={"/"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/" && "bg-[#f2c119]" }  `}>
               HOME
             </NavLink>
-            <NavLink to={"/about"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/about" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/about"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/about" && "bg-[#f2c119]" }  `}>
               ABOUT
             </NavLink>
-            <NavLink to={"/product"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/product" && "bg-[#f2c119]" }  `}>
-              PRODUCTS
+            <NavLink to={"/product"} className={` rounded-3xl py-4 px-1 hover:bg-[#f2c119] duration-200 ${cr == "/product" && "bg-[#f2c119]" }  `}>
+              PRODUCT
             </NavLink>
-            <NavLink to={"/fashion"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/fashion" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/fashion"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/fashion" && "bg-[#f2c119]" }  `}>
               FASHION
             </NavLink>
-            <NavLink to={"/new"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/new" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/new"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/new" && "bg-[#f2c119]" }  `}>
               NEWS
             </NavLink>
-            <NavLink to={"/contact"} className={`p-5 hover:bg-[#f2c119] duration-200 ${cr == "/contact" && "bg-[#f2c119]" }  `}>
-              CONTACT US
+            <NavLink to={"/contact"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/contact" && "bg-[#f2c119]" }  `}>
+              CONTACT 
             </NavLink>
           </div>
 
           {/* ............................ >> search Bar << .................. */}
-          <div className=" flex content-center items-center justify-center">
+          <div className=" hidden md:block container content-center items-center mx-auto">
             <form className="flex items-center max-w-sm mx-auto">
               
-              <div className="relative w-full">
+              <div className="relative z-0 w-full">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

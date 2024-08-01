@@ -9,8 +9,8 @@ import Footer from './Footer'
 const News = () => {
   return (
     <>
-    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-[30px] text-[35px] '>Latest News</h1>
-    <div className=' mt-10'>
+    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-3 text-2xl md:py-6 md:text-4xl '>Latest News</h1>
+    <div className=' mt-5'>
       <LatestNews/>
     </div>
     

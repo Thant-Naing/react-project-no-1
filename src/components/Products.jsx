@@ -7,21 +7,23 @@ const Products = () => {
   return (
     <>
     
-    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-[30px] text-[35px] '>Featured Products</h1>
+    <h1 className=' bg-[#f3a20d] text-white font-bold text-center py-3 text-2xl md:py-6 md:text-4xl '>Featured Products</h1>
 
-     <div className="bg-product-bg bg-cover h-[1400px] bg-no-repeat  w-full  ">
+     
 
-      <Layout>
+      
         
-         <div className=' flex basis-6 gap-4 justify-center flex-wrap'>
+        <div className='p-5'>
+           <CardList/>
+        </div>
 
-          <CardList/>
+         
           
-         </div>
+        
 
-      </Layout>
+    
 
-    </div>
+   
     
     <Footer/>
    </>

@@ -8,13 +8,13 @@ const LatestNews = () => {
   return (
     <Layout>
 
-    <div className=' flex basis-5 mb-5'>
+    <div className=' gap-3 justify-center container grid max-w-full md:grid-cols-1 lg:grid-cols-2 p-5 '>
 
-      <div className=' basis-2/5'>
+      <div className=' items-center content-center mx-auto'>
        <img src={new1} />
       </div>
 
-      <div className=' p-10 basis-3/5'>
+      <div className=' items-center content-center mx-auto '>
       <h1 className=' font-bold text-2xl mb-3 text-gray-700'>Specimen book. It has survived not only five</h1>
 
       <div className=' flex justify-between mb-5 text-gray-700'>
@@ -22,19 +22,19 @@ const LatestNews = () => {
         <p  className=' underline underline-offset-8 '>like  Comment</p>
       </div>
       <p className=' text-justify font-semibold text-gray-600'>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and , when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
       </p>
       </div>
 
     </div>
 
-    <div className=' flex basis-5 mb-5'>
+    <div className=' gap-3 justify-center container grid max-w-full md:grid-cols-1 lg:grid-cols-2 p-5 '>
 
-      <div className=' basis-2/5'>
+      <div className=' items-center content-center mx-auto'>
        <img src={new2} />
       </div>
 
-      <div className=' p-10 basis-3/5'>
+      <div className=' items-center content-center mx-auto '>
       <h1 className=' font-bold text-2xl mb-3 text-gray-700'>Specimen book. It has survived not only five</h1>
 
       <div className=' flex justify-between mb-5 text-gray-700'>
@@ -42,19 +42,19 @@ const LatestNews = () => {
         <p  className=' underline underline-offset-8 '>like  Comment</p>
       </div>
       <p className=' text-justify font-semibold text-gray-600'>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and , when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
       </p>
       </div>
 
     </div>
 
-    <div className=' flex basis-5 mb-5'>
+    <div className=' gap-3 justify-center container grid max-w-full md:grid-cols-1 lg:grid-cols-2 p-5 '>
 
-      <div className=' basis-2/5'>
+      <div className=' items-center content-center mx-auto'>
        <img src={new3} />
       </div>
 
-      <div className=' p-10 basis-3/5'>
+      <div className=' items-center content-center mx-auto '>
       <h1 className=' font-bold text-2xl mb-3 text-gray-700'>Specimen book. It has survived not only five</h1>
 
       <div className=' flex justify-between mb-5 text-gray-700'>
@@ -62,13 +62,13 @@ const LatestNews = () => {
         <p  className=' underline underline-offset-8 '>like  Comment</p>
       </div>
       <p className=' text-justify font-semibold text-gray-600'>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type aLorem Ipsum is simply dummy text of the printing and , when an unknown printer took a galley of type and scrambled it to make a type specimen book.nd scrambled it to make a type specimen book.
       </p>
       </div>
 
     </div>
 
-    
+   
 
 
 

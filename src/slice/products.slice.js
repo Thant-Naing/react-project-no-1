@@ -1,4 +1,7 @@
- export const products = [
+import { createSlice } from "@reduxjs/toolkit";
+
+let initialState = {
+  products : [
     {
       "id": 1,
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -260,7 +263,19 @@
       }
     }
   ]
+}
 
+const productSlice = createSlice({
+  name: 'products',
+  initialState,
+  reducers: {
+    getAllProducts: (state) => state.products,
 
+    filterProducts: (state, action) => {}
+     
+        
+  },
+});
 
-  
+  export const { getAllProducts,filterProducts} = productSlice.actions;
+  export default productSlice;

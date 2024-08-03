@@ -14,19 +14,19 @@ const SecNavBAr = () => {
             <NavLink to={"/"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/" && "bg-[#f2c119]" }  `}>
               HOME
             </NavLink>
-            <NavLink to={"/about"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/about" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/home/about"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/home/about" && "bg-[#f2c119]" }  `}>
               ABOUT
             </NavLink>
-            <NavLink to={"/product"} className={` rounded-3xl py-4 px-1 hover:bg-[#f2c119] duration-200 ${cr == "/product" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/home/product"} className={` rounded-3xl py-4 px-1 hover:bg-[#f2c119] duration-200 ${cr == "/home/product" && "bg-[#f2c119]" }  `}>
               PRODUCT
             </NavLink>
-            <NavLink to={"/fashion"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/fashion" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/home/fashion"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/home/fashion" && "bg-[#f2c119]" }  `}>
               FASHION
             </NavLink>
-            <NavLink to={"/new"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/new" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/home/new"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/home/new" && "bg-[#f2c119]" }  `}>
               NEWS
             </NavLink>
-            <NavLink to={"/contact"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/contact" && "bg-[#f2c119]" }  `}>
+            <NavLink to={"/home/contact"} className={`p-4 rounded-3xl hover:bg-[#f2c119] duration-200 ${cr == "/home/contact" && "bg-[#f2c119]" }  `}>
               CONTACT 
             </NavLink>
           </div>

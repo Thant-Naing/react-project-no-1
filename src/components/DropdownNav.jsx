@@ -28,19 +28,19 @@ const DropdownNav = () => {
         <NavLink className={` text-lg ${cr == "/" && "text-[#f2c119]" }`} to={'/'}>Home</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
-        <NavLink className={`text-lg ${cr == "/about" && "text-[#f2c119]" }`} to={'/about'}>About</NavLink>
+        <NavLink className={`text-lg ${cr == "/home/about" && "text-[#f2c119]" }`} to={'/home/about'}>About</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
-        <NavLink className={`text-lg ${cr == "/product" && "text-[#f2c119]" }`} to={'/product'}>Product</NavLink>
+        <NavLink className={`text-lg ${cr == "/home/product" && "text-[#f2c119]" }`} to={'/home/product'}>Product</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
-        <NavLink className={`text-lg ${cr == "/fashion" && "text-[#f2c119]" }`} to={'/fashion'}>Fashion</NavLink>
+        <NavLink className={`text-lg ${cr == "/home/fashion" && "text-[#f2c119]" }`} to={'/home/fashion'}>Fashion</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
-        <NavLink className={`text-lg ${cr == "/new" && "text-[#f2c119]" }`} to={'/new'}>News</NavLink>
+        <NavLink className={`text-lg ${cr == "/home/new" && "text-[#f2c119]" }`} to={'/home/new'}>News</NavLink>
     </DropdownMenuItem>
     <DropdownMenuItem>
-        <NavLink className={`text-lg ${cr == "/contact" && "text-[#f2c119]" }`} to={'/contact'}>Contact Us</NavLink>
+        <NavLink className={`text-lg ${cr == "/home/contact" && "text-[#f2c119]" }`} to={'/home/contact'}>Contact Us</NavLink>
     </DropdownMenuItem>
    
 

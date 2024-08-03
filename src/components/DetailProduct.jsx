@@ -17,12 +17,12 @@ const { id } = useParams();
   const prevProduct = () => {
 
    
-nav(`/detail/${id>1 ? id-1 : products.length}`)
+nav(`/home/detail/${id>1 ? id-1 : products.length}`)
 
   };
 
   const nextProduct = () => {
-nav(`/detail/${id<products.length ? parseInt(id)+1 : 1}`)
+nav(`/home/detail/${id<products.length ? parseInt(id)+1 : 1}`)
 
   };
 

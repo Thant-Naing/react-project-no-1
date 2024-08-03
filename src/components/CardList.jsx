@@ -90,7 +90,7 @@ const CardList = () => {
         <div key={p.id} className=" flex flex-col  mt-1 w-46 py-1   bg-white border border-gray-200 rounded-lg shadow hover:shadow-2xl ">
     
        <div className=' h-48 lg:h-56 mx-auto content-center items-center  '>
-       <img onClick={() => nav(`/detail/${p.id}`)} className=" p-5 sm:p-6 w-36 lg:w-48 lg:p-5  lg:max-w-48 lg:max-h-56 min-w-28 min-h-36   mx-auto hover:scale-125 duration-300  rounded-t-lg" src={p.image} alt="product image" />
+       <img onClick={() => nav(`/home/detail/${p.id}`)} className=" p-5 sm:p-6 w-36 lg:w-48 lg:p-5  lg:max-w-48 lg:max-h-56 min-w-28 min-h-36   mx-auto hover:scale-125 duration-300  rounded-t-lg" src={p.image} alt="product image" />
        </div>
     
 

@@ -11,8 +11,9 @@ import Footer from './Footer'
 const Home =  () => {
   
   const nav = useNavigate()
-
-  
+const test = () => {
+  window.location.href = window.location.href;
+}
   
   
   return (
@@ -27,7 +28,7 @@ const Home =  () => {
 
         <div className='  container space-y-3 lg:space-y-8 content-center lg:ms-20 z-1 '>
 
-         <p className='  text-[#183661] font-logoFont sm:text-4xl font-semibold md:font-bold text-3xl lg:text-[85px]'>Romofyi</p>
+         <p onClick={test} className='  text-[#183661] font-logoFont sm:text-4xl font-semibold md:font-bold text-3xl lg:text-[85px]'>Romofyi</p>
          <p className='text-[#f2c119] font-serif font-semibold sm:text-6xl text-6xl lg:text-[116px]'>Trands 2024</p>
          <p className=' text-[#2a2a2c] text-xl  xl:text-[30px] '>A huge fashion collection for ever</p>
       <a href="#card"> <button  className=' duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#1d37fd] p-[10px] sm:p-[14px] w-40 sm:w-44 rounded-full mt-10 text-white'>SHOP NOW</button></a>
@@ -66,7 +67,7 @@ const Home =  () => {
 
        
         <div className=' flex justify-center py-4'>
-        <button type='button' onClick={() => nav("/product")}  className='  duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#183661] p-[14px] w-44 rounded-full mt-10 text-white'>See More</button>
+        <button type='button' onClick={() => nav("/home/product")}  className='  duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#183661] p-[14px] w-44 rounded-full mt-10 text-white'>See More</button>
         </div>
 
       </Layout>

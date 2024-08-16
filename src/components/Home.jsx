@@ -24,7 +24,7 @@ const test = () => {
       
       
       
-       <div  className=' py-7 sm:py-0  grid grid-cols-2 lg:max-w-[85%] mx-auto lg:gap-10 mb-3   '>
+       <div  className=' py-7 sm:py-0  grid grid-cols-2 lg:max-w-[85%] mx-auto lg:gap-10    '>
 
         <div className='  container space-y-3 lg:space-y-8 content-center lg:ms-20 z-1 '>
 

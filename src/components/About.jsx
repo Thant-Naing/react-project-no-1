@@ -14,8 +14,8 @@ const About = () => {
 
               <div className=' mb-5 '>
                 
-                  <h1 className=' lg:text-3xl font-semibold mb-5'>The standard Lorem Ipsum</h1>
-                  <p className=' text-justify  lg:leading-loose lg:text-xl'> Lorem ipsum dolor sit  adipiscing elit, sed tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
+                  <h1 className=' text-md md:text-xl lg:text-3xl font-semibold mb-5'>The standard Lorem Ipsum</h1>
+                  <p className=' text-sm sm:text-md text-justify  lg:leading-loose lg:text-xl'> Lorem ipsum dolor sit  adipiscing elit, sed tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
                   <button type='button' onClick={() => nav("/product")}  className='  duration-700 hover:bg-[#f2c119] hover:text-[#2a2a2c] text-[18px bg-[#183661] p-[14px] w-44 rounded-full mt-10  text-white'>Read More</button>
                
                
